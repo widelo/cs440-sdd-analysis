@@ -1,0 +1,7 @@
+grain,status,records,included_in_age_analysis
+repository,valid,57164,True
+repository,predates_repo_creation,15680,False
+repository,missing_date,187,False
+repository-category,valid,59617,True
+repository-category,predates_repo_creation,16051,False
+repository-category,missing_date,198,False

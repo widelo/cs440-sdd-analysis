@@ -1,0 +1,11 @@
+grain,variable,n_non_null,n_missing,median,mean,q25,q75,maximum
+repository,repo_stars,73031,0,0.0,31.081225780832796,0.0,0.0,75672.0
+repository,repo_forks,73031,0,0.0,4.474524516985937,0.0,0.0,15505.0
+repository,num_specs,73031,0,1.0,6.446509016718927,1.0,2.0,2708.0
+repository,num_sdd_tools,73031,0,1.0,1.0388191316016486,1.0,1.0,6.0
+repository,num_logged_in_spec_contributors,73031,0,1.0,0.7833933535074147,0.0,1.0,36.0
+repository: valid ages,adoption_age_days,57164,0,0.13,113.122799489189,0.0,17.0,6459.79
+repository: valid ages,adoption_age_years,57164,0,0.0,0.3095729829962914,0.0,0.05,17.69
+repository-category,num_specs_for_tool,75866,0,1.0,6.205612527350856,1.0,2.0,2708.0
+repository-category: valid ages,tool_adoption_age_days,59617,0,0.19,114.23403978730897,0.0,19.85,6459.79
+repository-category: valid ages,tool_adoption_age_years,59617,0,0.0,0.3126170387641109,0.0,0.05,17.69

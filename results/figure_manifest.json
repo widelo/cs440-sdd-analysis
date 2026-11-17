@@ -1,0 +1,72 @@
+[
+  {
+    "figure": "figures\\rq1_languages.png",
+    "caption": "One row per repository; all 73,031 repositories retained. Top 10 known languages; other known and missing languages shown separately.",
+    "interpretation": "TypeScript is the most frequent main language (30,766 repositories; 42.1% of this sample). Language is missing for 1,583 repositories."
+  },
+  {
+    "figure": "figures\\rq1_ownership.png",
+    "caption": "Repository-level counts; denominator = 73,031 sampled repositories, including every adoption-age status.",
+    "interpretation": "User: 51,661 (70.7%); Organization: 21,370 (29.3%). These are sample shares."
+  },
+  {
+    "figure": "figures\\rq1_stars_forks.png",
+    "caption": "All 73,031 repository rows retained; equal-width bins in ln(1 + count), with ticks in original units. Zero values and the full tail are included; reported statistics use all nonmissing values.",
+    "interpretation": "RQ1 \u00b7 Stars: median 0, mean 31.08, maximum 75,672 (n=73,031). RQ1 \u00b7 Forks received: median 0, mean 4.47, maximum 15,505 (n=73,031)."
+  },
+  {
+    "figure": "figures\\rq1_specifications.png",
+    "caption": "All 73,031 repository rows retained; equal-width bins in ln(1 + count), with ticks in original units. Zero values and the full tail are included; reported statistics use all nonmissing values.",
+    "interpretation": "RQ1 \u00b7 Detected specification files per repository: median 1, mean 6.45, maximum 2,708 (n=73,031)."
+  },
+  {
+    "figure": "figures\\rq1_contributors.png",
+    "caption": "All 73,031 repository rows retained; equal-width bins in ln(1 + count), with ticks in original units. Zero values and the full tail are included; reported statistics use all nonmissing values.",
+    "interpretation": "RQ1 \u00b7 Logged-in specification contributors per repository: median 1, mean 0.78, maximum 36 (n=73,031). Counts cover unique GitHub accounts committing to detected specification files, not all repository contributors; zero does not establish no human activity."
+  },
+  {
+    "figure": "figures\\rq2_repository_age.png",
+    "caption": "Age cohort: 57,164 valid repositories included; 15,680 predating and 187 missing-date records excluded. Equal-width ln(1 + days) bins; original-day ticks. Zero and the full tail retained.",
+    "interpretation": "Among valid ages, the median is 0.13 days and the middle 50% spans 0.00\u201317.00 days. The mean is 113.12 days; 58.7% of valid records have rounded ages of at most one day. This is conditional on valid chronology."
+  },
+  {
+    "figure": "figures\\rq2_age_by_ownership.png",
+    "caption": "Age cohort: 57,164 valid repositories included; 15,680 predating and 187 missing-date records excluded. Diamonds = medians; lines = IQRs, not confidence intervals.",
+    "interpretation": "Organization: median 0.00 days (valid n=20,109); User: median 1.09 days (valid n=37,055). Differences are descriptive and do not establish causation."
+  },
+  {
+    "figure": "figures\\rq2_age_by_language.png",
+    "caption": "Age cohort: 57,164 valid repositories included; 15,680 predating and 187 missing-date records excluded. Diamonds = medians; lines = IQRs, not confidence intervals. Top 10 known languages chosen from all repositories; 6,981 other/missing-language valid records are outside this display.",
+    "interpretation": "TypeScript: median 0.00 days (valid n=25,939); PowerShell: median 0.09 days (valid n=585); Shell: median 0.80 days (valid n=1,855); Python: median 1.44 days (valid n=9,207); JavaScript: median 1.55 days (valid n=3,577); Go: median 2.17 days (valid n=2,158); C#: median 2.44 days (valid n=1,216); HTML: median 3.69 days (valid n=2,419); Rust: median 4.05 days (valid n=2,196); Java: median 6.16 days (valid n=1,031). Differences are descriptive and do not establish causation."
+  },
+  {
+    "figure": "figures\\rq2_category_ages.png",
+    "caption": "Category age cohort: 59,617 valid pairs included; 16,051 predating and 198 missing-date pairs excluded. Top 8 categories chosen using all rows; 1,834 valid pairs outside display. Diamonds = medians, lines = IQRs (not confidence intervals).",
+    "interpretation": "Category ages use tool_adoption_age_status, independently of repository-age status. Repositories may appear in multiple groups. caffeine: 0.00 days; root_bare: 0.07 days; speckit: 1.27 days; docs_embedded: 1.92 days; specs_generic: 7.58 days; adhoc_other: 8.92 days; openspec: 9.60 days; conductor: 22.42 days."
+  },
+  {
+    "figure": "figures\\rq3_monthly_repositories.png",
+    "caption": "72,844 dated repository rows; 187 missing dates excluded. Predating records retained. Observed dates: 2024-01-02\u20132026-07-11. July 2026 is partial; counts are not GitHub-wide adoption rates.",
+    "interpretation": "The largest count before the partial final month is 14,093 in March 2026. A lower partial-month count cannot establish a decline in adoption."
+  },
+  {
+    "figure": "figures\\rq3_annual_repositories.png",
+    "caption": "Calendar-year sample counts; missing first-detection dates excluded (187). Predating records retained. Data end July 2026 (latest detected commit July 11); 2026 is not annualized. Sample coverage and detection can change over time.",
+    "interpretation": "2024: 1,073; 2025: 11,130; 2026: 60,641. The incomplete 2026 count is not directly comparable to a full calendar year; no GitHub-wide denominator is available."
+  },
+  {
+    "figure": "figures\\rq3_categories.png",
+    "caption": "All 75,866 repository-category rows across 73,031 distinct repositories retained. Membership overlaps: counts cannot be summed as unique repositories. Labels include generic/file-location categories, not only named software products.",
+    "interpretation": "The leading category is root_bare (17,104 repositories). There are 21 category labels. root_bare and docs_embedded describe detection categories and must not be described as software products."
+  },
+  {
+    "figure": "figures\\rq3_monthly_categories.png",
+    "caption": "Top 5 categories selected by all-time distinct repository count. Category-specific dates, not repository-first dates. 198 missing-date repository-category rows excluded from trends; predating records retained. Membership overlaps; final month is partial.",
+    "interpretation": "The leading categories are root_bare, caffeine, speckit, adhoc_other, openspec. The trend table contains 75,668 dated repository-category records across all categories; a repository may contribute at different months for different categories. These are first detections, not monthly active usage."
+  },
+  {
+    "figure": "figures\\rq3_categories_by_language.png",
+    "caption": "Top 10 known languages and top 6 categories chosen on full sample. Each cell divides distinct category repositories by all repositories of that language. Missing-language repositories (1,583) are outside this display. Categories overlap; row percentages need not sum to 100%.",
+    "interpretation": "The largest displayed within-language presence is speckit in PowerShell (70.6%). These conditional sample shares do not measure adoption rates among all GitHub repositories of a language."
+  }
+]

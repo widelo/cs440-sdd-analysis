@@ -153,6 +153,8 @@ activemq-data/
 .env
 .envrc
 .venv
+.venv-win/
+.runtime/
 env/
 venv/
 ENV/
@@ -221,3 +223,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local environments and generated caches
+.venv/
+.venv-win/
+.runtime/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+.env
+.env.*

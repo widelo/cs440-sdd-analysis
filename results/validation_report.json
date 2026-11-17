@@ -1,0 +1,88 @@
+{
+  "repositories": {
+    "rows": 73031,
+    "unique_repositories": 73031,
+    "age_status_counts": {
+      "valid": 57164,
+      "predates_repo_creation": 15680,
+      "missing_date": 187
+    },
+    "date_min": "2024-01-02 16:21:45+00:00",
+    "date_max": "2026-07-11 01:20:18+00:00",
+    "missing_language": 1583,
+    "missing_adoption_date": 187,
+    "fork_flag_counts": {
+      "False": 73031
+    },
+    "missing_by_column": {
+      "repo_name": 0,
+      "repo_language": 1583,
+      "owner_type": 0,
+      "repo_stars": 0,
+      "repo_forks": 0,
+      "repo_fork": 0,
+      "repo_created_at": 0,
+      "first_sdd_at": 187,
+      "num_specs": 0,
+      "num_sdd_tools": 0,
+      "sdd_tools": 0,
+      "num_logged_in_spec_contributors": 0,
+      "adoption_age_raw_days": 187,
+      "adoption_age_status": 0,
+      "adoption_age_valid": 0,
+      "adoption_age_days": 15867,
+      "adoption_age_years": 15867,
+      "adoption_year": 187
+    }
+  },
+  "tools": {
+    "rows": 75866,
+    "unique_repositories": 73031,
+    "age_status_counts": {
+      "valid": 59617,
+      "predates_repo_creation": 16051,
+      "missing_date": 198
+    },
+    "date_min": "2024-01-02 16:21:45+00:00",
+    "date_max": "2026-07-11 01:20:18+00:00",
+    "missing_language": 1621,
+    "missing_adoption_date": 198,
+    "fork_flag_counts": {
+      "False": 75866
+    },
+    "missing_by_column": {
+      "repo_name": 0,
+      "spec_tool": 0,
+      "repo_language": 1621,
+      "owner_type": 0,
+      "repo_stars": 0,
+      "repo_forks": 0,
+      "repo_fork": 0,
+      "repo_created_at": 0,
+      "first_tool_adoption_at": 198,
+      "num_specs_for_tool": 0,
+      "tool_adoption_age_status": 0,
+      "tool_adoption_age_valid": 0,
+      "tool_adoption_age_days": 16249,
+      "tool_adoption_age_years": 16249,
+      "adoption_year": 198
+    }
+  },
+  "cross_table_checks": "passed",
+  "input_sha256": {
+    "repo_summary.csv": "747a92f9c9d92ce01e868b303237ceb54e729ac4c7d61fb973cef635dedc39bb",
+    "repo_tool_adoption.csv": "e95ff4eeb81eea20b222a516185d89d7247f3874a44aa679c45f997e73a43114"
+  },
+  "data_dictionary_read": true,
+  "data_dictionary_sha256": "21af91796c5d43371052584b992b73b2359c9eac3eb4d34f45268aedf293d5b6",
+  "observation_note": "Dataset ends July 2026; last detected date is not a verified extraction timestamp.",
+  "environment": {
+    "python": "3.12.0",
+    "pandas": "2.2.3",
+    "numpy": "2.2.6",
+    "matplotlib": "3.10.3",
+    "seaborn": "0.13.2",
+    "nbformat": "5.10.4",
+    "nbclient": "0.10.2"
+  }
+}
